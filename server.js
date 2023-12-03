@@ -19,27 +19,13 @@ app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
-// // reads the db 
-// app.get('/', (req, res) => {
-//   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
-// });
 
 // GET Route for feedback page
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// // // GET Route for wildcard
-// // app.get('*', (req, res) =>
-// //   res.sendFile(path.join(__dirname, '/public/index.html'))
-// // );
-
-// app.post('/notes', (req, res) => {
-//   // Log that a POST request was received
-//   console.info(`${req.body} request received to add a review`);
-//   res.json({message: "test"})
-// });
-
+// listens for the PORT and notifies you when it is running.
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );

@@ -1,61 +1,51 @@
 # task-manager
 
-## Your Task
+## Author of task-manager
+Chris Davis, chriscodinghub
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+## Welcome to my task-manager!
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
 
-## User Story
+## I would like to start with a list of things I learned on this project.
 
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
++ I learned how to install node.js and dependancies.
++ I learned how to modularize router files to keep files clean.
++ I learned how to GET, POST and DELETE data from databases.
++ I learned how to launch applications through Heroku.
 
-## Acceptance Criteria
+## Functions of my App
++ With the user starts the app, the home page will be displayed.
++ Then if the user clicks the button Get Started, they will be redirrected to a second page.
++ On the center of the page Note Title and Note Text can be clicked on and text can then be input by user.
++ Once the user has input the Title and Text they a new button will appear Save Note on the top right of the page.
++ If the user clicks Save Note, their text will be logged to the database and appended to the left hand side of the page.
++ The user can then either click on their titles of previous saves to bring up the file, or click the trash can icon to delete that file.
 
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
-```
 
-## Mock-Up
 
-The following GIF shows the web application's appearance and functionality:
+## Link to launched page of app
+[task-manager](href: https://tranquil-fjord-76934-09eed02c4374.herokuapp.com/)
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo.gif)
 
-## Getting Started
+## Images of generated demo README.md
 
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
+![task-manager-home](https://github.com/chriscodinghub/task-manager/assets/144561170/a305f8c0-293a-4f4b-8cc1-c7d96579d9a8)
 
-The following HTML routes should be created:
+<br>
 
-* `GET /notes` should return the `notes.html` file.
+![task-manager-1](https://github.com/chriscodinghub/task-manager/assets/144561170/afe1dfd7-6357-4729-95b7-ad185639ee43)
 
-* `GET *` should return the `index.html` file.
+<br>
 
-The following API routes should be created:
+![task-manager-2](https://github.com/chriscodinghub/task-manager/assets/144561170/35793162-da4f-4ad0-bf36-7dcc9b621afb)
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+<br>
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
+![task-manager-3](https://github.com/chriscodinghub/task-manager/assets/144561170/aefddb06-65b8-4912-b6a4-e64849ecada1)
 
-## Bonus
+<br>
 
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
 
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+
+## Date
+12/2/2023
