@@ -24,7 +24,7 @@ Chris Davis, chriscodinghub
 
 
 ## Link to launched page of app
-[task-manager](href:https://tranquil-fjord-76934-09eed02c4374.herokuapp.com/)
+[task-manager](https://tranquil-fjord-76934-09eed02c4374.herokuapp.com/)
 
 
 ## Images of generated demo README.md
